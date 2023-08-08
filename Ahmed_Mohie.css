@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-between;
     height: 730px;
+    display: grid;
+    grid-template-columns: 0fr 1000px 0fr;
+    grid-template-rows: 730px 0px; 
+}
 }
 
 .Sign_in{
