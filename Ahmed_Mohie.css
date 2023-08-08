@@ -1,0 +1,82 @@
+.task{
+    background-image: linear-gradient(
+    to left ,#FFEDE1 0% ,#ffffff 90%);
+    display: flex;
+    justify-content: space-between;
+    height: 730px;
+}
+
+.Sign_in{
+    box-shadow: 0px 19px 40px 0px rgba(0, 0, 0, 0.9);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto o;
+
+}
+
+.Logo{
+    color: #F47458;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+
+.Welcome{
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.48px;
+}
+
+.email{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; padding-left: 0%;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.email_2{
+    border: white;
+    width: 300px; padding-left: 10px;
+    height: 30px; border-radius: 4px;
+    background: #FFF6F4;
+    align-self: flex-start;
+    border-radius: 100px;
+}
+
+.submit{
+    width: 150px;
+    height: 46px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 10px ;
+    font-size: 10px;
+    background-color: #F47458;
+    border-radius: 100px;
+    margin: auto;
+    border: white;
+}
+
+.submit_2{
+    display: flex;
+}
+
+.image{
+ 
+    max-width: 100%;
+    max-height: 100%;
+} 
+
+.Ahmed{
+    padding-left: 1000;
+}

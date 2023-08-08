@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ahmed_Mohie_Social_Media</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="Ahmed_Mohie.css">
+    </head>
+    <body class="task">
+        
+        <script type="text/javascript">
+            function Form(){
+                var selectvalue= $('input[name=link]:checked','#Form').val();
+                if(selectvalue=="1"){
+                    window.open('goto.html','_self');
+                    return true;
+                }
+                
+                if(selectvalue=="2"){
+                    window.open('goto.html','_self');
+                    return true;
+                }
+                
+                return false;
+            }
+        </script>   
+        
+         <div class="Sign_in">
+            <a class="Logo">Physics Here</a><br><br><br>
+            <a class="Welcome">Welcome!</a><br><br><br><br>
+            
+        
+        <form id="Form">
+            <label for="Name" class="email">Your Name:</label><br>
+            <input type="text" class="email_2" id="email" name="email"required><br><br>
+
+            <input class="F" type="radio" onclick="Form()" name="link" value="1"required/>Primary Secondry<br><br>
+            <input class="S" type="radio" onclick="Form()" name="link" value="2"required/>Secondary Second
+
+        </form>
+    </div>
+
+    <div class="image_container">
+        <img src="Images/Ahmed.png" class="image"><br>
+    </div>
+
+
+    </body>
+</html>
